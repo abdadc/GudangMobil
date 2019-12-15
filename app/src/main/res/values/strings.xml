@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GudangMobil</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">JDM Cars</string>
+    <string name="slide_1_desc">The coolest cars are Japanese Domestic Market Cars</string>
+
+    <string name="slide_2_title">Basic Cars</string>
+    <string name="slide_2_desc">Basic Cars for your daily drive !</string>
+
+    <string name="slide_3_title">Luxury Cars</string>
+    <string name="slide_3_desc">Look like a boss? Here some luxurious cars for you !</string>
+
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+
+</resources>
