@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#FFFFFF</color>
     <color name="fd3s">#FFC107</color>
     <color name="basic">#666666</color>
     <color name="luxury">#03A9F4</color>
-    <color name="backgroundColor">#FFFFFF</color>
-    <color name="textColor">#000000</color>
+    <color name="backgroundColor">#000000</color>
+    <color name="textColor">#FFFFFF</color>
 
     <!-- dots inactive colors -->
     <color name="dot_dark_screen1">#d1395c</color>
