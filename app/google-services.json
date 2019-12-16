@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "508517944958",
+    "firebase_url": "https://gudangmobil-e9c6d.firebaseio.com",
+    "project_id": "gudangmobil-e9c6d",
+    "storage_bucket": "gudangmobil-e9c6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508517944958:android:4b4289b6ce5ff8a239122f",
+        "android_client_info": {
+          "package_name": "com.example.gudangmobil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508517944958-sqtcvrhc31jpbrd2ofisrt24i2majh05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gudangmobil",
+            "certificate_hash": "5f814f61a9fd5f700904e9e6a8c2e38a90681f09"
+          }
+        },
+        {
+          "client_id": "508517944958-bsvbs1lpe6q07m8qioru2rpph63pl95h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj-1QKhBR7l6CiErZwgFng2_lxOt9BLY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508517944958-bsvbs1lpe6q07m8qioru2rpph63pl95h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
