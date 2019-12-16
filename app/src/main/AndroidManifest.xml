@@ -9,9 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".Activities.LuxuryCarActivity"></activity>
         <activity
             android:name=".MainMenuActivity"
-            android:label="@string/title_activity_main_menu"></activity>
+            android:label="@string/title_activity_main_menu" />
         <activity android:name=".Activities.SettingsActivity" />
         <activity android:name=".Activities.WelcomeActivity" />
         <activity android:name=".Activities.SplashActivity">
