@@ -16,6 +16,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.example.gudangmobil.MainActivity;
+import com.example.gudangmobil.MainMenuActivity;
 import com.example.gudangmobil.R;
 
 public class WelcomeActivity extends AppCompatActivity {
@@ -94,7 +95,7 @@ public class WelcomeActivity extends AppCompatActivity {
     }
 
     private void launchHomeScreen() {
-        startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
+        startActivity(new Intent(WelcomeActivity.this, MainMenuActivity.class));
         finish();
     }
 

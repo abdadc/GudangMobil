@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">GudangMobil</string>
     <string name="title_activity_welcome">Home Screen</string>
+    <string name="title_activity_main_menu">MainMenu Screen</string>
     <string name="settings">Settings</string>
     <string name="theme">Choose Your Theme !</string>
     <string name="night">Night Mode</string>
