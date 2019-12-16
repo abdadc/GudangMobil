@@ -14,9 +14,11 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
+import com.example.gudangmobil.Activities.AddCarActivity;
 import com.example.gudangmobil.Activities.LuxuryCarActivity;
 import com.example.gudangmobil.MainMenuActivity;
 import com.example.gudangmobil.R;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class HomeFragment extends Fragment {
 
@@ -35,10 +37,20 @@ public class HomeFragment extends Fragment {
         Button btnJdm = (Button) root.findViewById(R.id.buttonJdm);
         Button btnBsc = (Button) root.findViewById(R.id.buttonBasic);
 
+        FloatingActionButton add = (FloatingActionButton) root.findViewById(R.id.float_add);
+
         btnLux.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getActivity(), LuxuryCarActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        add.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getActivity(), AddCarActivity.class);
                 startActivity(intent);
             }
         });
