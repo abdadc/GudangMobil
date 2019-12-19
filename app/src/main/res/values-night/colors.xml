@@ -6,8 +6,13 @@
     <color name="fd3s">#FFC107</color>
     <color name="basic">#666666</color>
     <color name="luxury">#03A9F4</color>
-    <color name="backgroundColor">#000000</color>
+    <color name="backgroundColor">#2E2E2E</color>
     <color name="textColor">#FFFFFF</color>
+
+    <color name="bgBlueDark">#0183ce</color>
+    <color name="bgBlue">#00a2ff</color>
+    <color name="bgCherry">#EB1E71</color>
+
 
     <!-- dots inactive colors -->
     <color name="dot_dark_screen1">#d1395c</color>
@@ -35,6 +40,9 @@
         <item>@color/dot_dark_screen4</item>
     </array>
 
+
+
     <!-- Button Setting -->
     <color name="btnback">#673AB7</color>
+    <color name="btn">#FFFFFF</color>
 </resources>

@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -33,9 +34,9 @@ public class HomeFragment extends Fragment {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
         MainMenuActivity mainmenu = (MainMenuActivity)getActivity();
 
-        Button btnLux = (Button) root.findViewById(R.id.buttonLuxury);
-        Button btnJdm = (Button) root.findViewById(R.id.buttonJdm);
-        Button btnBsc = (Button) root.findViewById(R.id.buttonBasic);
+        ImageView btnLux = (ImageView) root.findViewById(R.id.buttonLuxury);
+        ImageView btnJdm = (ImageView) root.findViewById(R.id.buttonJdm);
+        ImageView btnBsc = (ImageView) root.findViewById(R.id.buttonBasic);
 
         FloatingActionButton add = (FloatingActionButton) root.findViewById(R.id.float_add);
 
