@@ -7,17 +7,17 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.gudangmobil.Models.LuxuryCar;
+import com.example.gudangmobil.Models.Car;
 import com.example.gudangmobil.R;
 
-public class LuxuryCarViewHolder extends RecyclerView.ViewHolder {
+public class CarViewHolder extends RecyclerView.ViewHolder {
 
     public TextView tvNama;
     public TextView tvNopol;
     public TextView tvWarna;
     public ImageView ivGambar;
 
-    public LuxuryCarViewHolder(@NonNull View itemView) {
+    public CarViewHolder(@NonNull View itemView) {
         super(itemView);
         tvNama = itemView.findViewById(R.id.tv_nama);
         tvNopol = itemView.findViewById(R.id.tv_nopol);
@@ -25,10 +25,10 @@ public class LuxuryCarViewHolder extends RecyclerView.ViewHolder {
         ivGambar = itemView.findViewById(R.id.iv_gambar);
     }
 
-    public void bindToLuxuryCar(LuxuryCar luxuryCar){
-        tvNama.setText(luxuryCar.getNama());
-        tvNopol.setText(luxuryCar.getNopol());
-        tvWarna.setText(String.valueOf(luxuryCar.getWarna()));
+    public void bindToLuxuryCar(Car car){
+        tvNama.setText(car.getNama());
+        tvNopol.setText(car.getNopol());
+        tvWarna.setText(String.valueOf(car.getWarna()));
 //        ivGambar.setImageResource(tanaman.gambar);
     }
 }

@@ -1,6 +1,6 @@
 package com.example.gudangmobil.Models;
 
-public class LuxuryCar {
+public class Car {
 
     private String nama;
     private String nopol;
@@ -15,7 +15,7 @@ public class LuxuryCar {
         this.gambar = gambar;
     }
 
-    public LuxuryCar() {
+    public Car() {
     }
 
     public String getNama() {

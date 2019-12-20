@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".Activities.AddCarActivity"></activity>
-        <activity android:name=".Activities.LuxuryCarActivity" />
+        <activity android:name=".Activities.EditCarActivity"></activity>
+        <activity android:name=".Activities.AddCarActivity" />
+        <activity android:name=".Activities.CarActivity" />
         <activity
             android:name=".MainMenuActivity"
             android:label="@string/title_activity_main_menu" />

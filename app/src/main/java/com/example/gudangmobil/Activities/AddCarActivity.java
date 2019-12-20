@@ -13,7 +13,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.webkit.MimeTypeMap;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -21,6 +20,7 @@ import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.example.gudangmobil.MainMenuActivity;
 import com.example.gudangmobil.R;
 import com.google.android.gms.tasks.Continuation;
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -123,6 +123,9 @@ public class AddCarActivity extends AppCompatActivity {
                                     ref.child("nama").setValue(nama);
                                     ref.child("nopol").setValue(nopol);
                                     ref.child("warna").setValue(warna);
+
+                                    Intent moveit = new Intent(AddCarActivity.this , MainMenuActivity.class);
+                                    startActivity(moveit);
 
 
                                 } else {
