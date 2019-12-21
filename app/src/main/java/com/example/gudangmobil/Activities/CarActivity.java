@@ -62,15 +62,15 @@ public class CarActivity extends AppCompatActivity {
             protected void onBindViewHolder(@NonNull final CarViewHolder carViewHolder, int i, @NonNull final Car car) {
                 carViewHolder.bindToLuxuryCar(car);
                 Glide.with(CarActivity.this).load(car.getGambar()).into(carViewHolder.ivGambar);
-                carViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Intent move = new Intent(CarActivity.this, EditCarActivity.class);
-                        move.putExtra("nama", car.getNama());
-                        move.putExtra("jenis", jenis);
-                        startActivity(move);
-                    }
-                });
+//                carViewHolder.itemView.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        Intent move = new Intent(CarActivity.this, EditCarActivity.class);
+//                        move.putExtra("nama", car.getNama());
+//                        move.putExtra("jenis", jenis);
+//                        startActivity(move);
+//                    }
+//                });
             }
 
             @NonNull
