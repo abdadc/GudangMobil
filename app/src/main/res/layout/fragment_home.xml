@@ -126,8 +126,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="60dp"
-        android:outlineAmbientShadowColor="@color/colorPrimaryDark"
-        android:backgroundTint="@color/colorPrimaryDark"
+        android:outlineAmbientShadowColor="@color/btnback"
+        android:backgroundTint="@color/btnback"
         android:src="@drawable/ic_add"
         />
 
