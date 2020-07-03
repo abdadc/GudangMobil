@@ -1,1 +1,113 @@
-<mxfile host="app.diagrams.net" modified="2020-07-02T16:39:39.674Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="ktOtXZ5N79psgg8ALVM-" version="13.3.6" type="github"><diagram id="4Ni-fxJ2mkKiiWj7v6Iu" name="Page-1">tVXbjptADP0aHhtxSaLtY5NNu6q2Vauo6u7jLDjAdsBoxgnQr68Bh8uSjVpp+wLjM7bHc44NTrDNqk9GFckXjEA7vhtVTnDr+P7N+oafDVB3wNILOiA2adRB3gDs098goCvoMY3AThwJUVNaTMEQ8xxCmmDKGCynbgfU01MLFcMM2IdKz9GfaUSJXGvlDvgdpHFyPtlzZSdTZ2cBbKIiLEdQsHOCrUGkbpVVW9ANd2deuriPr+z2hRnI6W8C4g/fPx/WdbSK7P2zfXy4+/rDfbeU2qg+Xxgivr+YaCjBGHOldwO6MXjMI2iyumwNPveIBYMeg89AVIuY6kjIUEKZll2oUnpowhcrsR5HO7eVZG6NemR8A5NmQGAE62pvCn6VEoEsHk0IV3jwpbWUiYGu+AW9cNzwgFyNqTnOgFaUnqZ1KGm9uPcb1OGFCPQPYkmRJ6WPctKeC6aZhJYM/urb1Z+Sz21YNH5ZFTcDuzhoLMOE0yyY2CzNFSHzuymTlGBfqJa1kj17vk9gCKrrjM8ZkoB+ruVz4C3FLofh6kcoGQ3W2v1PpAYzUq3lAH/b3svadrXWXMbmyfAqppaJtcoaSvIn27yYQDoHEXOfb/CCLMI8s6W0Bo0sQPZCnJlyxajnJ4GjYbgo1jClTWJlQhlHr8lqu7W78IO30dV7P9XVDy7ounwbXdkcvprt3ujXE+z+AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-07-03T12:09:07.412Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="rhT2lJemcwDEL_VNgzPA" version="13.3.6" type="github">
+  <diagram id="4Ni-fxJ2mkKiiWj7v6Iu" name="Page-1">
+    <mxGraphModel dx="1447" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gAQJf6yd5dsLjsYXHNU0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gAQJf6yd5dsLjsYXHNU0-2" target="gAQJf6yd5dsLjsYXHNU0-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gAQJf6yd5dsLjsYXHNU0-2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="210" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="gAQJf6yd5dsLjsYXHNU0-3" target="qLEiaHUCTkPrLehapeGF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gAQJf6yd5dsLjsYXHNU0-3" value="ssid, pass, message&lt;br&gt;&amp;nbsp;chatid, tokenBot, treshold_dB" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" parent="1" vertex="1">
+          <mxGeometry x="175" y="230" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-2" value="Login wifi" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="310" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qLEiaHUCTkPrLehapeGF-4" target="qLEiaHUCTkPrLehapeGF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-6" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qLEiaHUCTkPrLehapeGF-5">
+          <mxGeometry x="0.3161" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qLEiaHUCTkPrLehapeGF-4" target="qLEiaHUCTkPrLehapeGF-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-9" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qLEiaHUCTkPrLehapeGF-8">
+          <mxGeometry x="0.2774" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-4" value="Sudah tekoneksi ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="210" y="380" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qLEiaHUCTkPrLehapeGF-7" target="qLEiaHUCTkPrLehapeGF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-7" value="Login Telegram API" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qLEiaHUCTkPrLehapeGF-10" target="qLEiaHUCTkPrLehapeGF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-10" value="Sensor suara idle" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="510" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qLEiaHUCTkPrLehapeGF-10" target="qLEiaHUCTkPrLehapeGF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qLEiaHUCTkPrLehapeGF-14" target="qLEiaHUCTkPrLehapeGF-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-18" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qLEiaHUCTkPrLehapeGF-17">
+          <mxGeometry x="-0.1889" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="qLEiaHUCTkPrLehapeGF-14" target="qLEiaHUCTkPrLehapeGF-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-24" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qLEiaHUCTkPrLehapeGF-23">
+          <mxGeometry x="0.294" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-14" value="Ada suara ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qLEiaHUCTkPrLehapeGF-22" target="qLEiaHUCTkPrLehapeGF-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="300" />
+              <mxPoint x="470" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-26" value="Tidak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qLEiaHUCTkPrLehapeGF-25">
+          <mxGeometry x="-0.4708" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="qLEiaHUCTkPrLehapeGF-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-31" value="Ya" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qLEiaHUCTkPrLehapeGF-28">
+          <mxGeometry x="-0.7037" relative="1" as="geometry">
+            <mxPoint y="-13.33" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-22" value="suara &amp;gt; treshold_dB?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qLEiaHUCTkPrLehapeGF-27" target="qLEiaHUCTkPrLehapeGF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-27" value="Bot.sendMessage (chatid, message)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="350" y="135" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qLEiaHUCTkPrLehapeGF-29" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
